@@ -14,6 +14,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 /*Se quiser fazer Comentários CSS */
 button {
     padding: 10px 15px;
@@ -26,7 +27,7 @@ button {
 
 header {
     background: no-repeat center/cover url("assets/tailandia.jpg");
-    height: calc(100vh - 100px);
+    height: calc(50vh - 50px);
 }
 
 header nav {
@@ -49,7 +50,7 @@ header nav p {
 
 .header-content {
     max-width: 400px;
-    margin: 150px auto;
+    margin: 50px auto;
     text-align: center;
 }
 
@@ -66,8 +67,8 @@ header nav p {
 }
 
 .pacotes {
-    background: #70ef96;
-    padding: 15px;
+    background: #efc370;
+    padding: 05px;
 }
 
 .pacotes .pacotes-card {
@@ -84,12 +85,27 @@ header nav p {
     border-radius: 24px 0 0 0;
 }
 
+.pacotes .card-image2 {
+    width: 350px;
+    height: 250px;
+    
+   }
+
+
 .pacotes .card {
     width: 250px;
     height: 350px;
     background: white;
     border-radius: 24px 0;
     margin: 25px;
+    position: relative;
+}
+
+.pacotes .cardJM {
+    width: 250px;
+    height: 350px;
+    border: 50;
+    margin: 125px;
     position: relative;
 }
 
@@ -149,6 +165,8 @@ header nav p {
 
 .servicos {
     padding: 15px;
+    background: #dff139;
+
 }
 
 .servicos .servicos-title {
@@ -172,6 +190,12 @@ header nav p {
     align-items: center;
     margin: 0 20px;
 }
+
+.servicos .card-image2 {
+    width: 200px;
+    height: 110px;
+    
+   }
 
 .servicos .card svg {
     width: 60px;
@@ -201,6 +225,49 @@ header nav p {
 
 .contatos {
     height: 250px;
-    background: green;
+    background: rgb(255, 208, 0);
+
+}
+
+.titulo {
+    color: chocolate;
+} 
+
+.logo-image {
+    width: 250px;
+    height: 150px;
+}
+
+footer {
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+.logotipo {
+   width: 100%;
+   font-size: 0.7em;
+   align-items: middle;
+
+}
+.logotipo img {
+   width: 20%;
+   align-items: middle;
+
+}
+.redes {
+   width: 15%;
+   
+}
+.redes img {
+    text-transform: uppercase;
+    display: inline;   
+    width: 18%;
+
+}
+.redes ul li {
+    text-transform: uppercase;
+    display: inline;
 
 }
